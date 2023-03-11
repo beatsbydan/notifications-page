@@ -1,0 +1,93 @@
+[
+    {
+        "id":1,
+        "image":"./images/avatar-mark-webber.webp",
+        "endImage":"",
+        "username":"Mark Webber",
+        "timeFrame":"1m ago",
+        "notificationText":"reacted to your recent post",
+        "caption":"My first tournament today!",
+        "privateMessage":"",
+        "unread":true,
+        "hasPicture": false,
+        "hasMsg": false
+    },
+    {
+        "id":2,
+        "image":"./images/avatar-angela-gray.webp",
+        "endImage":"",
+        "username":"Angela Gray",
+        "timeFrame":"5m ago",
+        "notificationText":"followed you",
+        "caption":"",
+        "privateMessage":"",
+        "unread":true,
+        "hasPicture": false,
+        "hasMsg": false
+    },
+    {
+        "id":3,
+        "image":"./images/avatar-jacob-thompson.webp",
+        "endImage":"",
+        "username":"Jacob Thompson",
+        "timeFrame":"1 day ago",
+        "notificationText":"has joined your group",
+        "caption":"Chess Club",
+        "privateMessage":"",
+        "unread":true,
+        "hasPicture": false,
+        "hasMsg": false
+    },
+    {
+        "id":4,
+        "image":"./images/avatar-rizky-hasanuddin.webp",
+        "endImage":"",
+        "username":"Rizky Hasanuddin",
+        "timeFrame":"5 days ago",
+        "notificationText":"sent you a private message",
+        "caption":"",
+        "privateMessage":"Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+        "unread":false,
+        "hasPicture":false, 
+        "hasMsg":true 
+    },
+    {
+        "id":5,
+        "image":"./images/avatar-kimberly-smith.webp",
+        "endImage":"./images/image-chess.webp",
+        "username":"Kimberly Smith",
+        "timeFrame":"1 week ago",
+        "notificationText":"commented on your picture",
+        "caption":"",
+        "privateMessage":"",
+        "unread":false,
+        "hasPicture": true,
+        "hasMsg": false
+    },
+    {
+        "id":6,
+        "image":"./images/avatar-nathan-peterson.webp",
+        "endImage":"",
+        "username":"Nathan Peterson",
+        "timeFrame":"2 weeks ago",
+        "notificationText":"reacted to your recent post",
+        "caption":"5 end-game strategies to increase your win rate",
+        "privateMessage":"",
+        "unread":false,
+        "hasPicture":false, 
+        "hasMsg":false 
+    },
+    {
+        "id":7,
+        "image":"./images/avatar-anna-kim.webp",
+        "endImage":"",
+        "username":"Anna Kim",
+        "timeFrame":"2 weeks ago",
+        "notificationText":"left the group",
+        "caption":"Chess Club",
+        "privateMessage":"",
+        "unread":false,
+        "hasPicture":false, 
+        "hasMsg":false 
+    }
+]
