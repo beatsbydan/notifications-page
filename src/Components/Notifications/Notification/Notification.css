@@ -1,0 +1,83 @@
+.notification{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3%;
+    padding:1.1em 1.5em;
+}
+.name{
+    color: var(--Very-dark-blue);
+}
+.unread{
+    background-color: var(--Very-light-grayish-blue);
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2em;
+}
+.right{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+img{
+    width: 40px;
+}
+.name{
+    cursor: pointer;
+    font-weight:var(--fw-800) ;
+}
+.name:hover{
+    color: var(--Blue);
+}
+.unreadIndicator{
+    display: inline-block;
+    position: relative;
+    top: -1.7px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: var(--Red);
+}
+.text{
+    color: var(--Grayish-blue);
+}
+.caption{
+    cursor: pointer;
+    color: var(--Dark-grayish-blue);
+    font-weight: var(--fw-800);
+}
+.caption:hover{
+    color: var(--Blue);
+}
+.timeFrame{
+    color: var(--Grayish-blue);
+}
+.privateMessage{
+    border-radius: 0.2em;
+    margin-top: 0.4em;
+    padding: 1em;
+    border: 1px solid var(--Grayish-blue);
+}
+.privateMessage:hover{
+    cursor: pointer;
+    border-color: var(--Light-grayish-blue-1);
+    background-color: var(--Light-grayish-blue-1);
+}
+.privateMessage p{
+    color: var(--Grayish-blue);
+}
+@media screen and (max-width:600px) {
+    .notification{
+        gap: 5%;
+    }
+}

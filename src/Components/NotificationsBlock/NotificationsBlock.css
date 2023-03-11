@@ -1,0 +1,19 @@
+.notificationsBlock{
+    width: 90%;
+    max-width: 800px;
+    margin: 80px auto;
+    background-color: var(--White);
+    padding: 1.8em;
+    border-radius: 0.5rem;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.057);
+    display: flex;
+    flex-direction: column;
+    gap: 1.8em;
+}
+@media screen and (max-width: 600px) {
+    .notificationsBlock{
+        width: 100%;
+        margin: auto;
+        padding:1.3em;
+    }
+}

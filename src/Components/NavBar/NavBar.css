@@ -1,0 +1,32 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+h3{
+    color: var(--Very-dark-blue);
+}
+.notificationBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8%;
+}
+.dynamicNumber{
+    padding: 0.2em 0.5em;
+    background-color: var(--Blue);
+    color: var(--White);
+    font-weight: var(--fw-800);
+    border-radius: 0.3em;
+}
+.navBar button{
+    border: none;
+    cursor: pointer;
+    color: var(--Grayish-blue);
+    background: transparent;
+    font-size: var(--fs-button);
+}
+.navBar button:hover{
+    color: var(--Blue);
+}
